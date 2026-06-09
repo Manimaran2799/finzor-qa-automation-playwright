@@ -1,0 +1,296 @@
+====================================================
+Test Case ID      : TC_001
+Test Case Name    : Customer Creation with Valid Data
+Module            : Customer Management
+Priority          : High
+Test Type         : Functional Testing
+
+Description:
+Verify that a Maker user can successfully create a new customer by entering all mandatory details and submitting the customer record.
+
+Preconditions:
+
+1. Application should be accessible.
+2. Maker user should have valid login credentials.
+3. User should be logged into the application.
+4. Customer Creation module should be available.
+
+Test Data:
+
+* First Name : John
+* Last Name  : Doe
+* Aadhaar No : 123456789012
+
+Steps to Reproduce:
+
+1. Login to the application as Maker.
+2. Navigate to Customer Creation module.
+3. Enter valid Personal Details.
+4. Enter valid Address Details.
+5. Enter valid KYC Details.
+6. Review all entered information.
+7. Click Save and Continue.
+8. Submit the customer record.
+
+Expected Result:
+
+1. Customer record should be created successfully.
+2. System should generate a unique Customer ID.
+3. Success message should be displayed.
+4. Customer record should appear in Unauthorized Inbox.
+
+Actual Result:
+
+1. Customer record created successfully.
+2. Unique Customer ID generated.
+3. Success message displayed.
+4. Customer record available in Unauthorized Inbox.
+
+Status:
+PASS
+
+Automation Status:
+Automated using Playwright
+
+====================================================
+
+Test Case ID      : TC_002
+Test Case Name    : Save Customer as Draft
+Module            : Customer Management
+Priority          : High
+Test Type         : Functional Testing
+
+Description:
+Verify that a Maker user can save customer details as Draft without submitting the record.
+
+Preconditions:
+
+1. User logged in as Maker.
+2. Customer Creation page is accessible.
+
+Test Data:
+
+* Customer details entered partially.
+
+Steps to Reproduce:
+
+1. Navigate to Customer Creation page.
+2. Enter customer information.
+3. Click Close button.
+4. Confirm draft save action.
+
+Expected Result:
+
+1. Customer information should be saved.
+2. Record should appear in Draft tab.
+3. User should be redirected successfully.
+
+Actual Result:
+
+1. Customer information saved successfully.
+2. Record displayed in Draft tab.
+3. User redirected successfully.
+
+Status:
+PASS
+
+Automation Status:
+Automated using Playwright
+
+====================================================
+
+Test Case ID      : TC_003
+Test Case Name    : Edit Draft Customer Record
+Module            : Customer Management
+Priority          : High
+Test Type         : Functional Testing
+
+Description:
+Verify Maker user can edit an existing Draft customer record.
+
+Preconditions:
+
+1. Draft customer record should exist.
+2. User logged in as Maker.
+
+Steps to Reproduce:
+
+1. Open Draft tab.
+2. Search draft customer.
+3. Click Edit.
+4. Modify customer details.
+5. Save changes.
+
+Expected Result:
+
+1. Customer details should be updated.
+2. Updated values should be displayed.
+
+Actual Result:
+
+1. Customer details updated successfully.
+2. Updated values displayed correctly.
+
+Status:
+PASS
+
+Automation Status:
+Automated using Playwright
+
+====================================================
+
+Test Case ID      : TC_004
+Test Case Name    : Submit Draft Customer
+Module            : Customer Management
+Priority          : High
+Test Type         : Functional Testing
+
+Description:
+Verify Draft customer can be submitted for authorization.
+
+Preconditions:
+
+1. Draft customer record exists.
+
+Steps to Reproduce:
+
+1. Open Draft record.
+2. Verify details.
+3. Click Submit.
+
+Expected Result:
+
+1. Record should be removed from Draft tab.
+2. Record should appear in Unauthorized Inbox.
+
+Actual Result:
+
+1. Record removed from Draft tab.
+2. Record displayed in Unauthorized Inbox.
+
+Status:
+PASS
+
+Automation Status:
+Automated using Playwright
+
+====================================================
+
+Test Case ID      : TC_005
+Test Case Name    : Search Customer in Unauthorized Inbox
+
+Description:
+Verify Authorizer can search customer using Customer ID.
+
+Steps to Reproduce:
+
+1. Login as Authorizer.
+2. Navigate to Unauthorized Inbox.
+3. Search using Customer ID.
+
+Expected Result:
+Customer record should be displayed.
+
+Actual Result:
+Customer record displayed successfully.
+
+Status:
+PASS
+
+====================================================
+
+Test Case ID      : TC_006
+Test Case Name    : Customer Authorization
+
+Description:
+Verify Authorizer can authorize customer record.
+
+Steps to Reproduce:
+
+1. Search customer in Unauthorized Inbox.
+2. Open customer record.
+3. Click Authorize.
+4. Confirm action.
+
+Expected Result:
+
+1. Customer should move to Authorized tab.
+2. Authorization should complete successfully.
+
+Actual Result:
+
+1. Customer moved to Authorized tab.
+2. Authorization completed successfully.
+
+Status:
+PASS
+
+====================================================
+
+Test Case ID      : TC_007
+Test Case Name    : Verify Authorized Customer
+
+Description:
+Verify authorized customer appears in Authorized tab.
+
+Expected Result:
+Customer should be visible in Authorized tab.
+
+Actual Result:
+Customer visible in Authorized tab.
+
+Status:
+PASS
+
+====================================================
+
+Test Case ID      : TC_008
+Test Case Name    : Request Revision Workflow
+
+Description:
+Verify Authorizer can request revision for customer record.
+
+Expected Result:
+Customer should move to Request Revision tab.
+
+Actual Result:
+Customer moved successfully to Request Revision tab.
+
+Status:
+PASS
+
+====================================================
+
+Test Case ID      : TC_009
+Test Case Name    : Customer Rejection Workflow
+
+Description:
+Verify Authorizer can reject customer record.
+
+Expected Result:
+Customer should move to Rejected tab.
+
+Actual Result:
+Customer moved successfully to Rejected tab.
+
+Status:
+PASS
+
+====================================================
+
+Test Case ID      : TC_010
+Test Case Name    : Edit and Re-Authorize Customer
+
+Description:
+Verify customer update workflow and authorization process.
+
+Expected Result:
+Updated customer record should be authorized successfully.
+
+Actual Result:
+Updated customer record authorized successfully.
+
+Status:
+PASS
+
+====================================================
