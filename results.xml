@@ -1,0 +1,286 @@
+<testsuites id="" name="" tests="5" failures="0" skipped="4" errors="0" time="99.92913399999999">
+<testsuite name="FinzorTests\AuthorizationTest.spec.js" timestamp="2026-06-09T12:31:56.869Z" hostname="" tests="5" failures="0" skipped="4" time="98.116" errors="0">
+<testcase name="Customer Authorization Workflow › Verify user can create, submit and authorize a new customer record" classname="FinzorTests\AuthorizationTest.spec.js">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Customer Authorization Workflow › Verify authorized customer record remains unchanged when edit operation is closed without saving" classname="FinzorTests\AuthorizationTest.spec.js">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Customer Authorization Workflow › Verify authorized customer record can be edited, resubmitted and reauthorized successfully" classname="FinzorTests\AuthorizationTest.spec.js">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Customer Authorization Workflow › Verify authorized customer record can be deactivated and displayed in deactivated queue" classname="FinzorTests\AuthorizationTest.spec.js">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Customer Authorization Workflow › Verify authorized customer record can be edited, saved as draft and displayed in draft queue" classname="FinzorTests\AuthorizationTest.spec.js" time="98.116">
+<system-out>
+<![CDATA[Ref ID: REFIND202606000328
+Assign Row Text:
+Main Branch - Mumbai
+
+	
+Generic
+	
+
+REFIND202606000328
+
+	
+
+not updated
+
+	
+
+Rohitxukhp
+
+	
+
+not updated
+
+	
+
+Aadhaar
+
+	
+
+not updated
+
+	
+
+21-01-2021
+
+	
+
+not updated
+
+	
+
+MINOR
+
+	
+
+No
+
+	
+
+New
+
+	
+
+Super Admin
+
+	
+
+Super Admin
+
+	
+ASSIGN
+RECALL
+Rows Found: [33m1[39m
+Row Text:
+Main Branch - Mumbai
+
+	
+Generic
+	
+
+REFIND202606000328
+
+	
+
+not updated
+
+	
+
+Rohitxukhp
+
+	
+
+not updated
+
+	
+
+Aadhaar
+
+	
+
+not updated
+
+	
+
+21-01-2021
+
+	
+
+not updated
+
+	
+
+MINOR
+
+	
+
+No
+
+	
+
+New
+
+	
+
+Super Admin
+
+	
+
+Super Admin
+
+	
+AUTHORIZE
+MOVE
+Customer ID : INDI202606000112
+KumarSharma
+Assign Row Text:
+Main Branch - Mumbai
+
+	
+Generic
+	
+
+REFIND202606000328
+
+	
+
+INDI202606000112
+
+	
+
+Rohitxukhp
+
+	
+
+09-06-2026
+
+	
+
+Aadhaar
+
+	
+
+not updated
+
+	
+
+21-01-2021
+
+	
+
+not updated
+
+	
+
+MINOR
+
+	
+
+No
+
+	
+
+Authorized
+
+	
+
+Super Admin
+
+	
+
+Super Admin
+
+	
+ASSIGN
+RECALL
+Rows Found: [33m0[39m
+Row Text:
+Main Branch - Mumbai
+
+	
+Generic
+	
+
+REFIND202606000328
+
+	
+
+INDI202606000112
+
+	
+
+Rohitxukhp
+
+	
+
+09-06-2026
+
+	
+
+Aadhaar
+
+	
+
+not updated
+
+	
+
+21-01-2021
+
+	
+
+not updated
+
+	
+
+MINOR
+
+	
+
+No
+
+	
+
+Authorized
+
+	
+
+Super Admin
+
+	
+
+Super Admin
+
+	
+AUTHORIZE
+MOVE
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
