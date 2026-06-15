@@ -1,0 +1,21 @@
+{
+  status: true,
+  token_type: 'bearer',
+  temp_user: false,
+  email: '94f1ab9951f9c23e384bd58cdee368653a62f9cddebf976c8e7182bbeb2efff6',
+  access_token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3N0YWdlLmZpbnpvcmNicy5jb20vYXV0aC9sb2dpbiIsImlhdCI6MTc4MTI1NTk3NSwiZXhwIjoxNzgxMzQyMzc1LCJuYmYiOjE3ODEyNTU5NzUsImp0aSI6IkduVHVqQ1BYbGhrNndHeWQiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInJvbGVfaWQiOjF9.xys79DxqkepDsH1v0q8XaJPrQlPgJDaU9OaEwJ2QKSs',
+  rolesPermission: {
+    id: 1,
+    name: 'SuperAdmin',
+    department: null,
+    guard_name: 'web',
+    bank_id: null,
+    status: true,
+    created_at: '2026-06-11T06:49:09.000000Z',
+    updated_at: '2026-06-11T06:49:09.000000Z'
+  },
+  message: 'Logged in successfully',
+  currency: 'INR',
+  currency_symbol: '₹',
+  idle_logout_time: null
+}

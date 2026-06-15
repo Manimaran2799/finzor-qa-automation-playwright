@@ -1,0 +1,22 @@
+{
+  data: {
+    scheme_description: 'Women Savings Scheme',
+    in_operative_date: '2025-12-31',
+    branch_type: 'Main',
+    customer_type: 'Individual',
+    customer_sub_type: 'Women',
+    from_age_group: 18,
+    to_age_group: 60,
+    gender: 'Female',
+    membership_type: 'Regular',
+    customer_risk_rating: 2,
+    creator_id: 1,
+    user_id: 1,
+    form_stage: 'New',
+    updated_at: '2026-06-14T10:15:31.000000Z',
+    created_at: '2026-06-14T10:15:31.000000Z',
+    id: 37
+  },
+  status: true,
+  message: 'Scheme Basic Information Created Successfully'
+}

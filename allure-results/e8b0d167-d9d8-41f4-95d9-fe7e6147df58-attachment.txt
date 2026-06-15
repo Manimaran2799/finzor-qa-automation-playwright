@@ -1,0 +1,23 @@
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3N0YWdlLmZpbnpvcmNicy5jb20vYXV0aC9sb2dpbiIsImlhdCI6MTc4MTI1OTg2NywiZXhwIjoxNzgxMzQ2MjY3LCJuYmYiOjE3ODEyNTk4NjcsImp0aSI6Ik13cXZaTm5XVENpUTJocjgiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInJvbGVfaWQiOjF9.bCk9kSUQWwam3RjKuKXUm-lNlkgA918DD46dReJdRDE
+{
+  status: true,
+  token_type: 'bearer',
+  temp_user: false,
+  email: '383680e6462896c5ea9ce07a649b6eaa63c2693e167eced12a70fe0e0c01375e',
+  access_token: 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwczovL3N0YWdlLmZpbnpvcmNicy5jb20vYXV0aC9sb2dpbiIsImlhdCI6MTc4MTI1OTg2NywiZXhwIjoxNzgxMzQ2MjY3LCJuYmYiOjE3ODEyNTk4NjcsImp0aSI6Ik13cXZaTm5XVENpUTJocjgiLCJzdWIiOiIxIiwicHJ2IjoiMjNiZDVjODk0OWY2MDBhZGIzOWU3MDFjNDAwODcyZGI3YTU5NzZmNyIsInJvbGVfaWQiOjF9.bCk9kSUQWwam3RjKuKXUm-lNlkgA918DD46dReJdRDE',
+  rolesPermission: {
+    id: 1,
+    name: 'SuperAdmin',
+    department: null,
+    guard_name: 'web',
+    bank_id: null,
+    status: true,
+    created_at: '2026-06-11T06:49:09.000000Z',
+    updated_at: '2026-06-11T06:49:09.000000Z'
+  },
+  message: 'Logged in successfully',
+  currency: 'INR',
+  currency_symbol: '₹',
+  idle_logout_time: null
+}
+Login message :Logged in successfully

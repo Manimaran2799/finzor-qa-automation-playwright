@@ -151,7 +151,43 @@ allure open
 * Allure Reporting Integration
 * Git Version Control
 
----
+-------------------------------------------------------------------
+
+# API Automation Framework
+
+## Features Covered
+
+- Token Based Authentication
+- Playwright API Testing
+- API Page Object Model (POM)
+- Dynamic Schema ID Chaining
+- Reusable API Methods
+- Test Data Separation
+- Configuration Management
+- Response Validation
+- End-to-End Workflow Testing
+
+## Scheme Configuration Workflow
+
+- Basic Information
+- Operational Instruction Step One
+- Operational Instruction Step Two
+- Facilities Step One
+- Facilities Step Two
+- Facilities Step Three
+- Free Transaction Limit
+- E-Channel Facilities
+- Link Product
+- Link Charges
+- TB & BS Related
+
+## Validations
+
+- Status Code Validation
+- Response Message Validation
+- Schema ID Validation
+- Business Data Validation
+- Workflow Dependency Validation
 
 ## Author
 
